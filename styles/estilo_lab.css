@@ -1,0 +1,146 @@
+main{
+    background-color: #3C638E;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.pedidos{
+    margin: auto;
+    width: 60%;
+    border: solid #4D706A;
+    border-radius: 20px;
+    background-color: #AAF5E8;
+}
+
+h1{
+    color: #ffff;
+    letter-spacing: 3px;
+    padding-top: 1%;
+    margin-bottom: 1%;
+}
+
+.identificacion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.id_pedidos{
+    width: 50px;
+    height: 20px;
+}
+
+form .identificacion .asignar_id{
+    text-decoration: none;
+    border: solid black 1px;
+    padding: 3px;
+    font-size: 12px;
+    background-color: #3C638E;
+    color: #ffff;
+}
+
+.nombre_pedido{
+    width: 400px;
+    height: 20px;
+    font-weight:bold;
+}
+
+.whats_icono{
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    justify-content:center;
+    margin: auto;
+    background-color: #4D706A;
+    color: white;
+    border: solid #3C638E;
+}
+
+.detalles_pedido a{
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.detalles_pedido a:hover{
+    width: 160px;
+    height: auto;
+}
+
+.whats_icono:hover{
+    width: 160px;
+    height: 41px;
+    background-color: #3C638E;
+    border: solid #4D706A;
+}
+
+.whats_icono label{
+    text-decoration: none;
+    margin: auto;
+}
+
+img{
+    width: 30px;
+}
+
+.armazon{
+    width: 400px;
+    height: 40px;
+    font-weight:bold;
+}
+
+.rx_pedido{
+    margin: auto;
+}
+
+.dato_rx{
+    width: 80px;
+    height: 20px;
+    font-weight:bold;
+}
+
+.tbl_medidas{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.datos_medidas{
+    width: 95px;
+    height: 20px;
+    font-weight: bold;
+}
+
+.datos_material{
+    width: 300px;
+    height: 20px;
+    font-weight: bold;
+}
+
+.btn_finales{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    border: solid 1px #4D706A;;
+    background-color: #3C638E;
+    color: white;
+}
+
+
+
+.btn_finales:hover{
+    width: 105px;
+    height: 45px;
+    border: solid 1px #3C638E;
+    background-color: #4D706A;
+}
+
+#imprimir_form{
+    padding-bottom: 1px;
+}

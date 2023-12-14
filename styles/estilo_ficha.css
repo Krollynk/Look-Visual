@@ -1,0 +1,98 @@
+
+
+form{
+    border: solid #4D706A;
+    width: 75%;
+    margin: auto;
+    background-color: #AAF5E8;
+    border-radius: 3%;
+}
+
+form .identificacion{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+form .identificacion .asignar_id{
+    text-decoration: none;
+    border: solid black 1px;
+    padding: 3px;
+    font-size: 12px;
+    background-color: #3C638E;
+    color: #ffff;
+}
+
+.ficha_id{
+    width: 75px;
+}
+
+form .datos_paciente{
+    text-align: left;
+    margin-left: 10px;
+    width: 75%;
+    margin: auto;
+}
+
+.edad{
+    width: 50px;
+}
+
+.telefono{
+    width: 100px;
+}
+
+.correo{
+    width: 250px;
+}
+
+.datoP{
+    margin-bottom: 10px;
+    width: 98%;
+    height: 25px;
+}
+
+table{
+    margin: auto;
+}
+
+.tb_sintomas{
+    text-align: right;
+}
+
+.OTSI{
+    width: 40%;
+    height: 50px;
+}
+
+.agudeza{
+    text-align: center;
+}
+
+.dato_rx{
+    width: 100px;
+}
+
+.submit{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 100px;
+    height: 40px;
+    border: solid #326D70;
+    background-color: #3C638E;
+    border-radius: 15%;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.submit:hover{
+    width: 110px;
+    height: 45px;
+    margin-bottom: 20px;
+    border: solid #50a6aa;
+}

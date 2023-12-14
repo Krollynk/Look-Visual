@@ -1,0 +1,103 @@
+body{
+    background-color: #023535;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    font-weight:bold;
+}
+
+main{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.refractograma{
+    background-color: #ffff;
+    margin: auto;
+    margin-top: 30px;
+    width: 75%;
+    border: #3E4F7A solid 15px;
+}
+
+.logo_img{
+    width: 60%;
+}
+
+h1{
+    margin: 0;
+}
+
+.identificacion{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+#lbl_ident{
+    border: solid 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.tabla_contenido{
+    width: 75%;
+    margin: auto;
+    
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border: solid 1px;
+}
+
+.otros_datos{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#lbl_otros{
+    border: solid 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.observaciones{
+    font-size: 20px;
+}
+
+textarea{
+    font-size: 17px;
+    text-align: center;
+}
+
+.contacto{
+    width: 30%;
+}
+
+.boton{
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: white;
+    border-color: black;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    width: 101px;
+    height: 41px;
+    background-color: rgb(255, 247, 172);
+}

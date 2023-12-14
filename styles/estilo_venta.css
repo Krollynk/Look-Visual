@@ -1,0 +1,83 @@
+body{
+    background-color: #3C638E;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    margin-top: 70px;
+    text-align: center;
+}
+
+h1{
+    color: #ffff;
+    letter-spacing: 3px;
+    padding-top: 1%;
+    margin-bottom: 1%;
+}
+
+.venta{
+    border: solid #4D706A;
+    width: 68%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #AAF5E8;
+}
+
+.identificacion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.id_venta{
+    width: 50px;
+    height: 20px;
+}
+
+form .identificacion .asignar_id{
+    text-decoration: none;
+    border: solid black 1px;
+    padding: 3px;
+    font-size: 12px;
+    background-color: #3C638E;
+    color: #ffff;
+}
+
+.nombre{
+    width: 300px;
+    height: 20px;
+}
+
+.tbl_venta{
+    margin: auto;
+    text-align: right;
+}
+
+.btn_final{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border: solid 1px #4D706A;;
+    background-color: #3C638E;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.btn_final:hover{
+    width: 105px;
+    height: 45px;
+    margin-bottom: 15px;
+    border: solid 1px #3C638E;
+    background-color: #4D706A;
+}
+
+.accs{
+    width: 25px;
+}
+
+.monto{
+    width: 100px;
+}

@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    background: #EFFFF1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*estilo main*/
+
+main{
+    padding-top: 0rem;
+    text-align: center;
+}
+
+h2{
+    margin-top: 5rem;
+    font-size: 30px;
+}
+
+/* MENU */
+.menu{
+    width: 100%;
+    height: 10rem;
+    margin: 0;
+    margin-top: 5rem;
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.menu p{
+    font-size: 18px;
+}
+
+.menu__option{
+    width: 90%;
+}
+
+.menu img{
+    width: 15rem;
+    height: 15rem;
+}
+
+.menu img:hover{
+    width: 16rem;
+    height: 16rem;
+}
+
+/* ========== MAIN FORMULARIOS ========== */
+.main__formularios{
+    background-color: #3C638E;
+    margin-top: 60px;
+    text-align: center;
+}
+
+h1{
+    color: #ffff;
+    letter-spacing: 3px;
+    margin: 0;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* ========== FICHA CLINICA ========== */
+.ficha__form{
+    border: solid #4D706A;
+    width: 75%;
+    margin: auto;
+    background-color: #AAF5E8;
+    border-radius: 3%;
+}
+
+.ficha__identificacion{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.ficha_datos_paciente{
+    text-align: left;
+    margin-left: 10px;
+    width: 75%;
+    margin: auto;
+}
+
+.asignar_id{
+    text-decoration: none;
+    border: solid black 1px;
+    padding: 3px;
+    font-size: 12px;
+    background-color: #3C638E;
+    color: #ffff;
+}
+
+.ficha_id{
+    width: 75px;
+}
+
+
+
+.edad{
+    width: 50px;
+}
+
+.telefono{
+    width: 100px;
+}
+
+.correo{
+    width: 250px;
+}
+
+.datoP{
+    margin-bottom: 10px;
+    width: 98%;
+    height: 25px;
+}
+
+table{
+    margin: auto;
+}
+
+.tb_sintomas{
+    text-align: right;
+}
+
+.OTSI{
+    width: 40%;
+    height: 50px;
+}
+
+.agudeza{
+    text-align: center;
+}
+
+.dato_rx{
+    width: 100px;
+}
+
+.submit{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 100px;
+    height: 40px;
+    border: solid #326D70;
+    background-color: #3C638E;
+    border-radius: 15%;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.submit:hover{
+    width: 110px;
+    height: 45px;
+    margin-bottom: 20px;
+    border: solid #50a6aa;
+}
+
+
+/* Dispositivos verticales */
+
+@media screen and (min-width: 800px){
+    .menu{
+      grid-template-columns: repeat(2, auto);
+      align-items: center;
+      justify-content: center;
+    }
+}
+
+/* Dispositivos horizontales */
+@media screen and (min-width: 992px){
+    .menu{
+        grid-template-columns: repeat(4, auto);
+        align-items: center;
+        justify-content: center;
+    }
+}
