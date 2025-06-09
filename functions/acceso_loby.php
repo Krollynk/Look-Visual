@@ -1,12 +1,12 @@
 <?php
 include("db_connection.php");
 
-$usuario = $_POST['usuario'];
-$contra = $_POST['password'];
+$usuario = $_POST['usuarioNombre'];
+$contra = $_POST['usuarioPassword'];
 session_start();
 $_SESSION['usuario']=$usuario;
 
-$consulta = "select * from acceso_usuario where user_user = '$usuario' and user_password = '$contra'";
+$consulta = "select * from adm_usuarios where adm_usuario_correo = '$usuario' and adm_usuario_password = '$contra'";
 $resultado = mysqli_query($con_db,$consulta);
 
 $row = mysqli_num_rows($resultado);

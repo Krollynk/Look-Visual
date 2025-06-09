@@ -27,11 +27,11 @@
                     <form action="functions/acceso_loby.php" method="post" class="login-form">
                         <div class="input-group">
                             <i class="fa-solid fa-user"></i>
-                            <input type="text" name="usuario" placeholder="Usuario">
+                            <input type="text" name="usuarioNombre" placeholder="Usuario">
                         </div>
                         <div class="input-group">
                             <i class="fa-solid fa-lock"></i>
-                            <input type="password" name="password" placeholder="contraseña">
+                            <input type="password" name="usuarioPassword" placeholder="contraseña">
                         </div>
                         <input type="submit" name="submit" value="Iniciar Sesion" class="btn-login">
                     </form>
